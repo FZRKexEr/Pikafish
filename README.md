@@ -3,11 +3,11 @@
   [![Pikafish][pikafish-logo]][website-link]
 
 
-  <h3>Pikafish</h3>
+  <h3>Pikafish HardCode Edition</h3>
 
-  A free and strong UCI xiangqi engine.
+  A free and strong UCI xiangqi engine - Modified version with hardcode evaluation.
   <br>
-  <strong>[Explore Pikafish docs »][wiki-link]</strong>
+  <strong>[Original Pikafish docs »][wiki-link]</strong>
   <br>
   <br>
   [Report bug][issue-link]
@@ -33,8 +33,16 @@
 
 ## Overview
 
-[Pikafish][website-link] is a **free and strong UCI xiangqi engine** derived from
-[Stockfish][stockfish-link] that analyzes xiangqi positions and computes the optimal moves.
+This is **Pikafish HardCode Edition**, a modified version of [Pikafish][website-link] - a free and strong UCI xiangqi engine derived from [Stockfish][stockfish-link] that analyzes xiangqi positions and computes the optimal moves.
+
+### About This Fork
+
+This edition includes modifications to the evaluation system, particularly with hardcoded evaluation parameters. This is a derivative work based on:
+
+- **Pikafish** - https://github.com/official-pikafish/Pikafish
+- **Stockfish** - https://github.com/official-stockfish/Stockfish
+
+All modifications are released under the same GPLv3 license as the original works.
 
 Pikafish **does not include a graphical user interface** (GUI) that is required
 to display a chessboard and to make it easy to input moves. These GUIs are
@@ -107,28 +115,61 @@ Detailed compilation instructions for all platforms can be found in our
 [documentation][wiki-compile-link]. Our wiki also has information about
 the [UCI commands][wiki-uci-link] supported by Pikafish.
 
-## Terms of use
+## License
 
 ### GNU General Public License version 3
 
-Pikafish is free and distributed under the
-[**GNU General Public License version 3**][license-link] (GPL v3). Essentially,
-this means you are free to do almost exactly what you want with the program,
-including distributing it among your friends, making it available for download
-from your website, selling it (either by itself or as part of some bigger
-software package), or using it as the starting point for a software project of
-your own.
+This project is a derivative work of Pikafish, licensed under the [**GNU General Public License version 3**][license-link] (GPL v3).
 
-The only real limitation is that whenever you distribute Pikafish in some way,
-you MUST always include the license and the full source code (or a pointer to
-where the source code can be found) to generate the exact binary you are
-distributing. If you make any changes to the source code, these changes must
-also be made available under GPL v3.
+### Original Work
+
+- **Copyright (C) 2004-2026** The Stockfish developers
+- **Copyright (C) 2021-2026** The Pikafish developers
+
+See https://github.com/official-pikafish/Pikafish
+
+### Modifications (HardCode Edition)
+
+- **Copyright (C) 2026** Li Xinpeng
+
+### License Summary
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
+
+### GPLv3 Requirements
+
+When you distribute this software:
+
+1. **Include the license** - You MUST always include the license and the full source code (or a pointer to where the source code can be found) to generate the exact binary you are distributing.
+
+2. **Share modifications** - If you make any changes to the source code, these changes must also be made available under GPL v3.
+
+3. **Preserve copyright notices** - All copyright notices and author attributions must be kept intact.
 
 ## Acknowledgements
 
-Pikafish uses neural networks trained on [data provided by the Pika Xiangqi Zero
-project][px0-data-link], which is made available under the [Open Database License][odbl-link] (ODbL).
+This HardCode Edition is a derivative work based on:
+
+- **[Pikafish](https://github.com/official-pikafish/Pikafish)** - The original UCI xiangqi engine by the Pikafish developers
+- **[Stockfish](https://github.com/official-stockfish/Stockfish)** - The world-class chess engine by the Stockfish developers
+- **[Fairy-Stockfish](https://github.com/fairy-stockfish/Fairy-Stockfish)** - Variant chess support by the Fairy-Stockfish developers
+
+Pikafish uses neural networks trained on [data provided by the Pika Xiangqi Zero project][px0-data-link], which is made available under the [Open Database License][odbl-link] (ODbL).
+
+### Authors
+
+See the [AUTHORS](./AUTHORS) file for the complete list of original Pikafish developers, including:
+
+- **PikaCat++** (PikaCat-OuO) - Project founder
+- **New Horizons** (skystarspython) - Project founder
+- **d:blue** (dhbloo) - Project founder
+- **Vincentzyx** - Project founder
+
+And many other contributors who have made this project possible.
 
 [authors-link]:			https://github.com/official-pikafish/Pikafish/blob/master/AUTHORS
 [build-badge]:			https://img.shields.io/github/actions/workflow/status/official-pikafish/Pikafish/pikafish.yml?branch=master&style=for-the-badge&label=pikafish&logo=github
