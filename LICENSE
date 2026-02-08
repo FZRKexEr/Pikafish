@@ -1,0 +1,60 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+[Full GPL v3 text available at: https://www.gnu.org/licenses/gpl-3.0.txt]
+
+================================================================================
+
+PIKAFISH HARDCODE EDITION - LICENSE INFORMATION
+
+This project is a derivative work of Pikafish, licensed under GPLv3.
+
+Original Work:
+  Copyright (C) 2004-2026 The Stockfish developers
+  Copyright (C) 2021-2026 The Pikafish developers
+  See https://github.com/official-pikafish/Pikafish
+
+Modifications (HardCode Edition):
+  Copyright (C) 2026 Li Xinpeng
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+================================================================================
+
+ORIGINAL AUTHORS
+
+See the AUTHORS file for the complete list of Pikafish developers.
+
+Key contributors to the original Pikafish project:
+- PikaCat++ (PikaCat-OuO)
+- New Horizons (skystarspython)
+- d:blue (dhbloo)
+- Vincentzyx
+
+And many others. See https://github.com/official-pikafish/Pikafish
+
+================================================================================
+
+DERIVATIVE WORK ACKNOWLEDGMENTS
+
+This HardCode Edition is based on:
+- Pikafish (https://github.com/official-pikafish/Pikafish)
+- Stockfish (https://github.com/official-stockfish/Stockfish)
+- Fairy-Stockfish (https://github.com/fairy-stockfish/Fairy-Stockfish)
+
+All modifications are released under the same GPLv3 license as the original works.
